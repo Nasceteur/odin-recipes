@@ -3,27 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Odin Recipes</title>
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <p>This page contains links to some recipes for recipes of meals that I like or I want to try.</p>
-  <ul>
-    <li>
-      <a href="recipes/Fugazzetta.html">Fuggazzetta Recipe</a>
-    </li>
-    <p>Example of this recipe</p>
-    <img src="./images/pizza-fugazzeta.jpg" alt="A pizza full of cheese and onions being lifted" width="685">
-    <li>
-      <a href="recipes/texas-chili.html">Texas Chili</a>
-    </li>
-     <p>Example of this recipe</p>
-     <img src="./images/texas-chili.webp" alt="A bowl filled with pieces of meat, sauce, a few bay leaves and two lime slices">
-    <li>
-      <a href="recipes/italian-sauce.html">Italian Sauce</a>
-    </li>
-     <p>Example of this recipe</p>
-     <img src="./images/italian-sauce.webp" alt="A pot full of red sauce with large pieces of meat">
-  </ul>
-</body>
+  <div class="main-box" id="top">
+    <div class="header">
+      <h1 class="main-title titles" >Odin Recipes</h1>
+      <p class="subtitle-text text"><span class="text-break">Welcome!</span>On this page, you will find some recipes for meals that I like or want to try at least once, along with a brief description of each one and a link to the respective recipe so that you can try them too.</p>
+    </div>
+    <ul>
+
+      <div class="recipe box1">
+        <li>
+          <a href="recipes/fugazzetta.html" class="recipe-name titles">Fuggazzetta Recipe</a>
+        </li>
+        <img src="./images/pizza-fugazzeta.jpg" alt="A pizza full of cheese and onions being lifted" width="685">
+        <p class="text">The Fugazzetta is an original pizza from Buenos Aires, Argentina noteworthy for the amount of cheese, onion and especially for being filled with cheese between two layers of dough.</p>
+      </div>
+
+      <div class="recipe box2">
+        <li>
+          <a href="recipes/texas-chili.html" class="recipe-name titles">Texas Chili</a>
+        </li>
+        <img src="./images/texas-chili.webp" alt="A bowl filled with pieces of meat, sauce, a few bay leaves and two lime slices">
+        <p class="text">This Texas chili is a rich and hearty with the enough temperature, a beef that is wonderfully tender and perfect for absorb the pepper and spices seasoning.</p>
+      </div>
+
+      <div class="recipe box3">
+        <li>
+          <a href="recipes/italian-sauce.html" class="recipe-name titles">Italian Sauce</a>
+        </li>
+        <img src="./images/italian-sauce.webp" alt="A pot full of red sauce with large pieces of meat">
+        <p class="text">The Italian Sauce is recipe full of amazing aromas, sweet tomato, herbs, savory and a tender meat. Perfect to accompany your favorite pasta and enjoy a delicious meal.</p>
+      </div>
+
+    </ul>
+    <a href="#top">Back to top</a>
+  </div>
+  </body>
 </html>
