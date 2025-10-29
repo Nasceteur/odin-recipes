@@ -45,13 +45,12 @@ a{
   margin-top: 40px;
 }
 
-
 .recipe-name{
   display: inline-block;
   font-size: 22px;
 }
 
-.main-title.titles{
+.main-title{
   text-decoration: none;
 }
 
@@ -61,7 +60,6 @@ a{
   text-decoration: underline;
   font-weight: 900;
 }
-
 
 .text-break{
   display: block;
